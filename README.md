@@ -2,28 +2,43 @@
 
 ## 📸 Screenshots
 
-### 1. Admin Dashboard
-![Admin Dashboard](https://github.com/user-attachments/assets/73330aa3-2533-431e-9b4f-a9532dad122f)
+### 1. Home Page
+![Home Page](https://github.com/priteshbaraiya/Hotel_management_system/blob/main/screenshot/homepage.png?raw=true)
 
-### 2. Login Page
-![Login Page](https://github.com/user-attachments/assets/cbda44fe-9c83-492c-b4d8-ad8e3a839ba3)
+### 2. Room Page
+![Room Page](https://github.com/priteshbaraiya/Hotel_management_system/blob/main/screenshot/rooms%20.png?raw=true)
 
-### 3. Smart Alerts
-![Smart Alerts](https://github.com/user-attachments/assets/fd109f9a-ad0f-4de4-9383-33316ece57ad)
+### 3. Service Page
+![Service Page](https://github.com/priteshbaraiya/Hotel_management_system/blob/main/screenshot/Service.png?raw=true)
 
-### 4. Forecasting (Room Occupancy & Demand)
-![Forecasting](https://github.com/priteshbaraiya/Smart-Inventory-Management-Forecasting-System/blob/main/screenshots/forecasting.png?raw=true)
+### 4. Gallry Page
+![Gallry Page](https://github.com/priteshbaraiya/Hotel_management_system/blob/main/screenshot/gallry.png?raw=true)
 
-### 5. Booking & Revenue Report
-![Inventory Report](https://github.com/user-attachments/assets/95f0ac8a-a85f-4bd6-ba76-e57330bd1cb2)
+### 5. Offer Page
+![Offer Page](https://github.com/priteshbaraiya/Hotel_management_system/blob/main/screenshot/offers.png?raw=true)
+
+### 6. Booking Page
+![Booking Page](https://github.com/priteshbaraiya/Hotel_management_system/blob/main/screenshot/booking.png?raw=true)
+
+### 7. Admin Dashboard
+![Admin Dashboard](https://github.com/priteshbaraiya/Hotel_management_system/blob/main/screenshot/admindashboard.png?raw=true)
+
+### 8. Guest Dashboard
+![Guest Dashboard](https://github.com/priteshbaraiya/Hotel_management_system/blob/main/screenshot/guestdashboard.png?raw=true)
+
+### 9. Staff Dashboard
+![Staff Dashboard](https://github.com/priteshbaraiya/Hotel_management_system/blob/main/screenshot/staffdashboard.png?raw=true)
+
 
 > A comprehensive web-based solution for managing hotel rooms, tracking bookings, handling check-ins/check-outs, and forecasting occupancy using Python & Django.
 
 ![Smart Hotel](https://img.shields.io/badge/Smart-Hotel-blue)
 ![License](https://img.shields.io/badge/license-MIT-red)
-![Project Status](https://img.shields.io/badge/Status-Completed-success)
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Django](https://img.shields.io/badge/Django-5.0%2B-green)
+![Project Status](https://img.shields.io/badge/Status-In%20Progress-success)
+![Angular](https://img.shields.io/badge/Angular-17%2B-red)
+![Node.js](https://img.shields.io/badge/Node.js-20%2B-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-7%2B-brightgreen)
+![Express](https://img.shields.io/badge/Express-4%2B-lightgrey)
 
 ## 📖 Introduction
 The **Smart Hotel Management System** is designed to streamline hotel operations for small to medium-sized properties (single hotel or small chain). Unlike basic booking systems, this project integrates **Data Analytics** and **basic Machine Learning** to forecast room demand/occupancy, helping managers make smarter staffing, pricing, and maintenance decisions.
@@ -31,58 +46,58 @@ The **Smart Hotel Management System** is designed to streamline hotel operations
 It includes secure authentication, real-time availability alerts, automated booking insights, and reporting.
 
 ## ✨ Key Features
-* **📊 Interactive Dashboard** — Real-time overview of Occupancy Rate, Today's Revenue, Upcoming Arrivals/Departures, and Booking Trends (using Chart.js).
-* **🔐 Secure Authentication** — User/Staff Registration & Login with **Email OTP Verification**.
-* **📉 Demand & Occupancy Forecasting** — Predicts future room demand and occupancy percentage based on historical booking data.
-* **🛏️ Smart Room Planning** — Auto-suggests rooms to prepare/clean or rooms with potential overbooking risk.
-* **🔔 Smart Alerts** — Instant notifications for Low Availability (< 5 rooms of a type), Fully Booked dates, Overdue Check-outs, or Maintenance Needed.
-* **📑 Reports** — Downloadable booking, revenue, and occupancy reports in CSV/PDF format.
-* **📱 Responsive Design** — Works smoothly on Desktop, Tablets, and Mobile (Bootstrap 5).
+
+- 📊 Real-time Dashboard (Occupancy %, Revenue, Arrivals/Departures, Trends)
+- 🔐 JWT Authentication + Role-based access (Admin / Staff / Guest)
+- 🛏️ Room Booking, Check-in/Check-out, Availability Calendar
+- 📉 Basic Occupancy Forecasting (past data se next 7 days ka prediction)
+- 🔔 Smart Alerts (low rooms, fully booked, overdue checkout)
+- 📑 CSV/PDF Reports (bookings, revenue, occupancy)
+- 📱 Responsive UI (Angular Material ya Bootstrap)
 
 ## 🛠️ Tech Stack
-* **Backend:** Python, Django Framework
-* **Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript (Chart.js)
-* **Database:** SQLite (Default) — easy to switch to PostgreSQL
-* **Data Analysis:** Pandas (for forecasting logic)
 
-## ⚙️ Installation & Setup Guide
+- **Frontend**: Angular 18 (Standalone Components), RxJS, Chart.js, Angular Material / PrimeNG
+- **Backend**: Node.js, Express.js, JWT, bcrypt
+- **Database**: MongoDB + Mongoose
+- **Others**: Multer (images), Nodemailer (OTP/email), cors
 
-Follow these steps to run the project locally on your machine.
+## Project Folder Structure
+
+## ⚙️ Installation & Run Karne Ka Tarika
 
 ### Prerequisites
-* Python (Version 3.10 or higher) installed.
-* VS Code or any Code Editor.
-* Internet connection (for installing libraries).
+- Node.js 18+ & npm
+- MongoDB (local ya Atlas)
+- Angular CLI: `npm install -g @angular/cli`
 
-### Step 1: Get the Project
-**Option A: Using Git (Recommended)**
+### Step 1: Project Clone Karo
 ```bash
-git clone https://github.com/priteshbaraiya/Smart-Hotel-Management-System.git
-cd Smart-Hotel-Management-System
-# The Royal Hotel
+git clone https://github.com/priteshbaraiya/smart-hotel-management-system.git
+cd smart-hotel-management-system
 
-This project is a web application for a hotel booking system.
-
-## Frontend
-
-The frontend is an Angular application located in the `frontend` directory.
-
-### UI Changes
-
-The following changes have been made to the user interface:
-
-- The navbar has been moved to be on top of the hero image.
-- The "Top Cities" and "Main Content" sections have been removed from the home page.
-- The styling has been updated to reflect these changes.
-
-### Running the application
-
-To see the changes, please run the following commands in the `d:\Hotel\The-Royal-Hotel\frontend` directory:
-
-```bash
+cd backend
 npm install
-npm start
-```
 
+Step 2: Backend Setup
+
+# .env file banao
+echo "PORT=5000
+MONGO_URI=mongodb://localhost:27017/smart-hotel
+JWT_SECRET=your_jwt_secret_123
+" > .env
+
+npm start
+# ya npm run dev (nodemon ke saath)
+
+Step 3: Frontend Setup
+
+cd ../frontend
+npm install
+
+# environment.ts mein backend URL daal do
+# apiUrl: 'http://localhost:5000/api'
+
+ng serve --open
 This will install the necessary dependencies and start the development server. You can then view the application in your browser at `http://localhost:4200/`.
 
